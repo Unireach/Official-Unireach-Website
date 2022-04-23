@@ -1,0 +1,101 @@
+section.activities {
+    padding: 1em;
+}
+
+section.activities>div {
+    background-color: var(--gray);
+    border-radius: 10px;
+}
+
+.searchTools {
+    display: flex;
+    background-color: var(--accent);
+    color: var(--W);
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.searchBar input {
+    height: 2em;
+    width: 20em;
+    border-radius: 1em;
+}
+
+.filters {
+    display: flex;
+}
+
+.SUPWCAS {
+    display: flex;
+    justify-content: space-between;
+}
+
+.SUPWCAS .filterBtnInp {
+    display: flex;
+    flex-direction: column;
+    margin: 0 1em;
+    align-items: center;
+}
+
+#activities {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.activity {
+    background-color: var(--W);
+    padding: 10px;
+    margin-bottom: 2%;
+    width: 49%;
+    border-radius: 5px;
+}
+
+.activity h3 {
+}
+
+.activity .filterList {
+    list-style-type: none;
+    background-color: var(--gray);
+    padding: 2px 5px;
+    margin: 5px 0;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.activity .filterList li {
+    font-size: 0.75em;
+    font-weight: bold;
+    color: red;
+}
+
+.activity .filterList li.true {
+    color: rgb(5, 181, 5);
+}
+
+.activity .img {
+    width: 100%;
+    height: 0;
+    padding-bottom: 50%;
+    margin: 15px 0;
+    border-radius: 5px;
+    background-color: bisque;
+}
+
+.activity .description {
+    margin-bottom: 15px;
+}
+
+.activity .signUp {
+    display: flex;
+    justify-content: center;
+}
+
+.activity a.signUpBtn {
+    background-color: var(--accent);
+    padding: 0.1em 2em;
+    border-radius: 5px;
+}

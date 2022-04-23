@@ -1,0 +1,28 @@
+{
+    "activities": [
+        {
+            "title": "Activity one",
+            "SUPW": false,
+            "CAS": false,
+            "description": "Lorem Ipsum Odor1"
+        },
+        {
+            "title": "Activity two",
+            "SUPW": true,
+            "CAS": false,
+            "description": "Lorem Ipsum Odor2"
+        },
+        {
+            "title": "Activity three",
+            "SUPW": false,
+            "CAS": true,
+            "description": "Lorem Ipsum Odor3"
+        },
+        {
+            "title": "Activity four",
+            "SUPW": true,
+            "CAS": true,
+            "description": "Lorem Ipsum Odor4"
+        }
+    ]
+}
