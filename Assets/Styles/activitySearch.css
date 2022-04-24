@@ -20,6 +20,7 @@ section.activities>div {
     height: 2em;
     width: 20em;
     border-radius: 1em;
+    padding-left: 10px;
 }
 
 .filters {
@@ -96,6 +97,12 @@ section.activities>div {
 
 .activity a.signUpBtn {
     background-color: var(--accent);
+    color: var(--W);
     padding: 0.1em 2em;
     border-radius: 5px;
+    transition: transform 0.2s;
+}
+
+.activity a.signUpBtn:hover {
+    transform: scale(104%);
 }
