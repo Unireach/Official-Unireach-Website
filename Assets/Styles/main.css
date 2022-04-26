@@ -32,7 +32,8 @@ header {
 
 header nav {
     display: flex;
-    gap: 3em;
+    width: 15em;
+    justify-content: space-between;
 }
 
 header nav a:hover {
@@ -53,21 +54,25 @@ section.abt {
 section.abt .content {
     background-color: var(--gray);
     padding: 1.2em;
-    width: 59%;
+    width: 54%;
     border-radius: 5px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
 }
 
+section.abt .content h1 {
+    font-size: 1.25em;
+}
+
 section.abt .content p {
-    line-height: 2em;
+    line-height: 1.8em;
+    font-size: 0.9em;
 }
 
 section.abt .img {
     background-color: bisque;
-    height: 15em;
-    width: 39%;
+    width: 44%;
     border-radius: 5px;
 }
 
@@ -108,4 +113,24 @@ footer h2 {
 
 .contacts a:hover {
     transform: scale(105%);
+}
+
+@media only screen and (max-width: 500px) {
+    header {
+        font-size: 0.75em;
+    }
+
+    section.abt {
+        flex-direction: column;
+    }
+
+    section.abt .content {
+        width: 100%;
+        margin-bottom: 1em;
+    }
+
+    section.abt .img {
+        width: 100%;
+        height: 20em;
+    }
 }
